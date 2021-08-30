@@ -1,27 +1,14 @@
-
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
+INITIAL BRANCH OWNED BY APPBREWERY, This fork is my modified rendition of the intended format/design pattern and functionality.
 
 #  BMI Calculator
+You as the user input your hieght and weight via scrollers on the initial interface of the program. Upon selecting your height and weight, once the calculate button is pressed, your BMI (Body Mass Index) will be given to you. according to where your approximated BMI is in reference to your hieght and weight, the app will present to you a screen infroming you if you are underweight, healthy weight, or overweight by presenting a new screen. The new screen will have a way to navigate back to the initial interface where you can reenter height and weight if you'd like to recalculate.
 
-## Our Goal
+## Purpose
+This app was a guided tutorial on understanding the concepts of inheritance with Swift structs and classes. It also demonstrated the utility of optional binding and optional chaining.
 
-The goal of this tutorial is to learn more about Optionals, solidify your understanding of the MVC design pattern and to introduce the concept of Classes. We’ll compare objects created from classes with instances of Structs that we learnt about earlier. 
-
-## What you will create
-
-By the end of the module, you will have made a Body Mass Index calculator. Based on the user’s weight and height it will calculate their body mass and give a piece of health advice depending on whether if they have eaten too many pies or if they need to eat more pies. 
-
-## What you will learn
-
-* How to create multi-screen apps with animated navigation.
-* Optional binding, optional chaining and the nil coalescing operator.
-* How to create classes and difference between classes and structs. 
-* Pass by value vs. pass by reference. 
-* Formatting Strings. 
-* Color literals.
-
-
-
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
-
-![End Banner](Documentation/readme-end-banner.png)
+##What I Learned
+- multi-screen app navigation via segues
+- how classes and inheritance in Swift operate akin to classes in other languages I've learned like Java
+- the difference between structs and classes (reference vs value)
+- formatting strings in Swift (decimals)
+- optional binding, optional chaining for variables whose values are not yet known and shall be determined via user input
