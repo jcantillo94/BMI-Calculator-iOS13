@@ -6,7 +6,7 @@ You as the user input your hieght and weight via scrollers on the initial interf
 ## Purpose
 This app was a guided tutorial on understanding the concepts of inheritance with Swift structs and classes. It also demonstrated the utility of optional binding and optional chaining.
 
-##What I Learned
+## What I Learned
 - multi-screen app navigation via segues
 - how classes and inheritance in Swift operate akin to classes in other languages I've learned like Java
 - the difference between structs and classes (reference vs value)
